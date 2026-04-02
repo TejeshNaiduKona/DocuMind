@@ -1,0 +1,23 @@
+DocuMind Enterprise AI Handboook
+Version: 1.0
+
+1. Introduction
+Welcome to DocuMind! Our company is dedicated to providing enterprise-grade Retrieval-Augmented Generation (RAG) solutions. This document outlines company policies and guidelines.
+
+2. Remote Work Policy
+Employees are allowed to work remotely 3 days a week. Core hours are 10:00 AM to 3:00 PM EST, during which everyone is expected to be online and available for meetings. The remaining 2 days must be spent in the office.
+
+3. Expense Policy
+Hardware expenses up to $1000 per year are auto-approved. For software licenses, please submit a request through the internal IT portal. Any travel expenses must be pre-approved by your manager.
+
+4. Security Guidelines
+Security is our top priority.
+- Ensure all passwords are at least 14 characters long and use a password manager.
+- Two-factor authentication (2FA) is mandatory for all internal services.
+- Customer data must never be stored on local drives. All sensitive data should remain in the encrypted corporate cloud.
+
+5. Time Off / Leave
+We offer 20 days of paid time off (PTO) annually. Sick leave is unlimited. Please notify your manager at least two weeks in advance for PTO exceeding 3 days.
+
+6. About RAG Chatbots
+RAG (Retrieval-Augmented Generation) combines large language models with a retriever to ground the model's responses in factual data. By retrieving relevant documents, the system significantly reduces hallucination and provides verifiable citations. DocuMind uses sentence-transformers for generating embeddings and Pinecone or ChromaDB for vector storage.
