@@ -113,7 +113,6 @@ async def ingest_document(file: UploadFile = File(...)):
         
     # Run the ingestion script
     process = subprocess.run(["python", "scripts/ingest.py"], capture_output=True, text=True)
-    
     # Reload vectorstore inline
     startup_event()
     
