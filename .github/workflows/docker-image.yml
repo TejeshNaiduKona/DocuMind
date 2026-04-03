@@ -14,5 +14,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    
+    - name: Build the standalone Docker image (Hugging Face Space)
+      run: docker build . --file Dockerfile --tag documind-standalone:$(date +%s)
+      
+    - name: Build the backend Docker image
+      run: docker build . --file Dockerfile.backend --tag documind-backend:$(date +%s)
+      
+    - name: Build the frontend Docker image
+      run: docker build . --file Dockerfile.frontend --tag documind-frontend:$(date +%s)
